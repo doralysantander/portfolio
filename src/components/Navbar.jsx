@@ -61,7 +61,7 @@ const Navbar = () => {
         </ul>
       
 
-        {/*icons 
+        {/*icons */}
         <div className=" hidden lg:flex  fixed flex-col top-[35%] left-0">
             <ul>
                 
@@ -97,7 +97,7 @@ const Navbar = () => {
                 </li>
             </ul>
 
-        </div>*/}
+        </div>
     
     </div>
   );
