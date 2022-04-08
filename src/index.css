@@ -18,3 +18,19 @@
  
   }
 }
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  background-color:#fffdf6;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+      to right,
+      rgba(159, 178, 218, 0.8),
+      hsla(187, 68%, 64%, 0.8)   
+  )!important;
+}
+
