@@ -19,7 +19,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
     //const handleClick = () => setNav(!nav);
    
-
+    
   return (
     //<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#023047] text-slate-100">
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-white text-[#023047]  shadow-lg shadow-[#5ab8c9]'>
@@ -30,33 +30,33 @@ const Navbar = () => {
         </div>
         {/*Menu */}
        
-            <ul  className=" hidden md:flex">
+            <ul  className="hidden md:flex">
                 <li>
-                    <Link to="home" smooth={true} offset={50} duration={500} >
+                    <a href="home"   >
                             Home
-                    </Link>
+                    </a>
                 </li>
                 <li>
-                    <Link to="about" smooth={true} offset={50} duration={500} >
+                    <a href="about"    >
                          About
-                    </Link>  
+                    </a>  
                 </li>
                 <li>
-                    <Link to="skills" smooth={true} offset={50} duration={500} >
+                    <a href="skills"   >
                          Skills
-                    </Link>  
+                    </a>  
                     
                 </li>
                 <li>
-                <Link to="projects" smooth={true} offset={50} duration={500} >
+                <a href="projects"   >
                         Projects
-                    </Link> 
+                    </a> 
                     
                 </li>
                 <li>
-                <Link to="contact" smooth={true} offset={50} duration={500} >
+                <a href="contact"  duration={500} >
                        Contacts
-                </Link> 
+                </a> 
                     
                 </li>
             </ul>
