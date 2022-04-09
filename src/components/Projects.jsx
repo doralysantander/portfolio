@@ -8,13 +8,13 @@ import Project5 from '../assets/project4.svg';
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full md:h-screen text-gray-300 bg-[#023047]'>
+    <div name='projects' className='w-full md:h-screen text-gray-300 bg-[#023047] p-4 '>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
+        <div className='pb-8 text-center p-8'>
           <p className='text-4xl font-bold inline  text-[#c39317] '>
           Projects
           </p>
-          <p className="py-8">some of my recent works</p>
+          <p className="py-">some of my recent works</p>
         </div>
 
         {/* Container */}
@@ -28,7 +28,7 @@ const Projects = () => {
            
             {/**hover */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span classNAme="text-2xl font-bold text-white tracking-wider">
+              <span className="text-2xl font-bold text-white tracking-wider">
                 React js aplication 
               </span>
               <div className="pt-8 text-center">
@@ -54,7 +54,7 @@ const Projects = () => {
            
             {/**hover */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span classNAme="text-2xl font-bold text-white tracking-wider">
+              <span className="text-2xl font-bold text-white tracking-wider">
                 React js aplication 
               </span>
               <div className="pt-8 text-center">
@@ -80,7 +80,7 @@ const Projects = () => {
            
             {/**hover */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span classNAme="text-2xl font-bold text-white tracking-wider">
+              <span className="text-2xl font-bold text-white tracking-wider">
                 React js aplication 
               </span>
               <div className="pt-8 text-center">
@@ -105,7 +105,7 @@ const Projects = () => {
            
             {/**hover */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span classNAme="text-2xl font-bold text-white tracking-wider">
+              <span className="text-2xl font-bold text-white tracking-wider">
                 React js aplication 
               </span>
               <div className="pt-8 text-center">

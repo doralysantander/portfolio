@@ -8,12 +8,13 @@ const Home = () => {
             <h1 className=" lg:text-5xl sm:text-4xl font-bold">DORALY SANTANDER CHAMORRO</h1>
             <h2 className="text-4xl sm:text-3xl font-bold text-l">I'M A DEVELOPER</h2>
             <div className="" >
-            <button className="bg-[#C39317] hover:bg-amber-500 text-white group font-bold py-2 px-6 border-2  flex items-center border-blue-800 rounded ">
+            <button className="ease-in duration-300  bg-[#C39317] hover:bg-amber-500 text-white group font-bold py-2 px-6 border-2  flex items-center border-blue-800 rounded ">
             My resumé
             <span className=" group-hover:rotate-90 duration-400">
                 <HiArrowNarrowRight className="ml-3" />
             </span>
         </button>
+       {/* <button class="  bg-[#C39317] group-hover:ease-in duration-300">Button A</button>*/}
             </div>
         </div>
         

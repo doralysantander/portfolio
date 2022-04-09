@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-scroll';
 
 import { FaBars, 
         FaTimes,  
@@ -21,7 +22,7 @@ const Navbar = () => {
 
   return (
     //<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#023047] text-slate-100">
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-white text-[#023047]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-white text-[#023047]  shadow-lg shadow-[#5ab8c9]'>
      
         <div>
             <img src={Logo} alt="Logo image" style ={{ width: '70px' }} />
@@ -30,11 +31,34 @@ const Navbar = () => {
         {/*Menu */}
        
             <ul  className=" hidden md:flex">
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contacts</li>
+                <li>
+                    <Link to="home" smooth={true} offset={50} duration={500} >
+                            Home
+                    </Link>
+                </li>
+                <li>
+                    <Link to="about" smooth={true} offset={50} duration={500} >
+                         About
+                    </Link>  
+                </li>
+                <li>
+                    <Link to="skills" smooth={true} offset={50} duration={500} >
+                         Skills
+                    </Link>  
+                    
+                </li>
+                <li>
+                <Link to="projects" smooth={true} offset={50} duration={500} >
+                        Projects
+                    </Link> 
+                    
+                </li>
+                <li>
+                <Link to="contact" smooth={true} offset={50} duration={500} >
+                       Contacts
+                </Link> 
+                    
+                </li>
             </ul>
       
         {/*hamburger */}
@@ -52,16 +76,39 @@ const Navbar = () => {
         }
       >
         
+                <li className="py-6 text-4xl">
+                    <Link  onClick={handleClick} to="home" smooth={true} offset={50} duration={500} >
+                                Home
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="about" smooth={true} offset={50} duration={500} >
+                            About
+                    </Link> 
+                   
+                </li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="skills" smooth={true} offset={50} duration={500} >
+                            Skills
+                    </Link>  
+
+                </li>
        
-                <li className="py-6 text-4xl">Skills</li>
-                <li className="py-6 text-4xl">Projects</li>
-                <li className="py-6 text-4xl">Home</li>
-                <li className="py-6 text-4xl">Contacts</li>
-                <li className="py-6 text-4xl">About</li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="projects" smooth={true} offset={50} duration={500} >
+                            Projects
+                    </Link> 
+                </li>
+                <li className="py-6 text-4xl">
+                <Link onClick={handleClick} to="contact" smooth={true} offset={50} duration={500} >
+                       Contacts
+                </Link> 
+
+                </li>
         </ul>
       
 
-        {/*icons */}
+        {/*icons 
         <div className=" hidden lg:flex  fixed flex-col top-[35%] left-0">
             <ul>
                 
@@ -97,7 +144,7 @@ const Navbar = () => {
                 </li>
             </ul>
 
-        </div>
+        </div>*/}
     
     </div>
   );
