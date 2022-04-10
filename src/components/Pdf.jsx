@@ -23,7 +23,7 @@ import HV from '../doc/HV-DORALY-SANTANDER.pdf'
           >
             <a href={HV} id="enlaceDescargarpdf"
             download="HV-DORALY-SANTANDER.pdf"
-            >Tu dispositivo no puede visualizar los pdfs presiona click para descargar</a>
+            >Your device cannot display the pdfs click to download</a>
               
 
           </object>
