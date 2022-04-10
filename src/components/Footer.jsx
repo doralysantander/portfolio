@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-scroll';
 import { FaBars, 
     FaTimes,  
     FaGithub,
@@ -36,24 +37,24 @@ const Footer = () => {
                 <div className="flex gap-4 text-[#023047]  hover:ml-[10px] duration-300">
 
                     {/*icons */}
-                    <a className="" 
-                    href="/">
+                    <Link className="" 
+                    to="">
                         <FaLinkedin size={40}/>
-                    </a>
+                    </Link>
 
-                    <a className="" 
-                    href="/">
+                    <Link className="" 
+                    to="/">
                         <FaFacebook size={40}/>
-                    </a>
+                    </Link>
 
-                    <a className=" " 
-                    href="/">
+                    <Link className=" " 
+                    to="/">
                         <FaWhatsapp size={40}/>
-                    </a>
-                    <a className=" " 
-                    href="/">
+                    </Link>
+                    <Link className=" " 
+                    to="/">
                         <FaGithub size={40}/>
-                    </a>
+                    </Link>
 
 
 
