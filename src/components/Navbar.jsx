@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {Link} from 'react-scroll';
+//import { Routes, Route, Link } from "react-router-dom";
 
 import { FaBars, 
         FaTimes,  
@@ -32,31 +33,31 @@ const Navbar = () => {
        
             <ul  className="hidden md:flex">
                 <li>
-                    <a href="home"   >
+                    <Link to="home"   >
                             Home
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="about"    >
+                    <Link to="about"    >
                          About
-                    </a>  
+                    </Link>  
                 </li>
                 <li>
-                    <a href="skills"   >
+                    <Link to="skills"   >
                          Skills
-                    </a>  
+                    </Link>  
                     
                 </li>
                 <li>
-                <a href="projects"   >
+                <Link to="projects"   >
                         Projects
-                    </a> 
+                    </Link> 
                     
                 </li>
                 <li>
-                <a href="contact"  duration={500} >
+                <Link to="contact"  duration={500} >
                        Contacts
-                </a> 
+                </Link> 
                     
                 </li>
             </ul>
@@ -77,32 +78,32 @@ const Navbar = () => {
       >
         
                 <li className="py-6 text-4xl">
-                    <a  onClick={handleClick} href="home"  >
+                    <Link  onClick={handleClick} to="home"  >
                                 Home
-                    </a>
+                    </Link>
                 </li>
                 <li className="py-6 text-4xl">
-                    <a onClick={handleClick} href="about"  >
+                    <Link onClick={handleClick} to="about"  >
                             About
-                    </a> 
+                    </Link> 
                    
                 </li>
                 <li className="py-6 text-4xl">
-                    <a onClick={handleClick} href="skills"  >
+                    <Link onClick={handleClick} to="skills"  >
                             Skills
-                    </a>  
+                    </Link>  
 
                 </li>
        
                 <li className="py-6 text-4xl">
-                    <a onClick={handleClick} href="projects" >
+                    <Link onClick={handleClick} to="projects" >
                             Projects
-                    </a> 
+                    </Link> 
                 </li>
                 <li className="py-6 text-4xl">
-                <a onClick={handleClick} href="contact" >
+                <Link onClick={handleClick} to="contact" >
                        Contacts
-                </a> 
+                </Link> 
 
                 </li>
         </ul>
