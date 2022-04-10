@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Landing from "./pages/Landing";
+//import Appr from "./components/Appr";
+import Pdf from "./components/Pdf";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
@@ -14,16 +16,18 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <Navbar/>
+   <Navbar/>
     <Routes>
       
-      <Route path="/home" element={<Landing/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/skills" element={<Skills/>}/>
-      <Route path="/projects" element={<Projects/>}/>
-      <Route path="/contact" element={<Contact/>}/>
+      <Route  exact path="/home" element={<Landing/>}/>
+      <Route  exact path="/about" element={<About/>}/>
+      <Route  exact path="/skills" element={<Skills/>}/>
+      <Route  exact path="/projects" element={<Projects/>}/>
+      <Route  exact path="/contact" element={<Contact/>}/>
+      {/*<Route  exact path="/" element={<Appr/>}/>*/}
+      <Route  exact path="/pdf" element={<Pdf/>}/>
     </Routes>
-      <Footer />
+     <Footer />
     </BrowserRouter>
    
     </>
