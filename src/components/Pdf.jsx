@@ -2,6 +2,14 @@ import React, { Component } from 'react'
 import HV from '../doc/HV-DORALY-SANTANDER.pdf'
 
  class Pdf extends Component {
+   componentDidMount() {
+     if(typeof window.screen.orientation !== 'undefined'){
+       document.getElementById('enlaceDescargarpdf').click();
+       window.close();
+
+     }
+     
+   }
   render() {
     return (
       <div className="absolute w-full h-full">
@@ -13,6 +21,9 @@ import HV from '../doc/HV-DORALY-SANTANDER.pdf'
               height="100%"
              
           >
+            <a href={HV} id="enlaceDescargarpdf"
+            download="HV-DORALY-SANTANDER.pdf"
+            >Tu dispositivo no puede visualizar los pdfs presiona click para descargar</a>
               
 
           </object>
