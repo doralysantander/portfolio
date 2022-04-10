@@ -8,7 +8,9 @@ export default class Contact extends React.Component {
 
           emailjs.sendForm('service_sgoyhbs', 'template_hxe2mkl', e.target, 'KI-dunL_Ng_VxiRSm')
           .then(function(response) {
+             
              console.log('SUCCESS!', response.status, response.text);
+         
           }, function(error) {
              console.log('FAILED...', error);
           });
@@ -21,9 +23,9 @@ return (
 <div className='pb-8'>
 <p className="text-4xl font-bold text-[#023047]">Contact</p>
 </div>
-<input className=' shadow-sm border-slate-300 focus:outline-none focus:border-[#C39317] focus:ring-[#C39317] block w-full rounded-md sm:text-sm focus:ring-1 bg-[#fff] p-2 ' type="text" placeholder='Name' name='name' />
-<input className='my-4 p-2 bg-[#fff]' type="email" placeholder='Email' name='email' />
-<textarea className='bg-[#fff] p-2' name="message" rows="10" placeholder='Message'></textarea>
+<input className=' shadow-sm border-slate-300 focus:outline-none focus:border-[#C39317] focus:ring-[#C39317] block w-full rounded-md sm:text-sm focus:ring-1 bg-[#fff] p-2 ' type="text" placeholder='Name' name='name' required/>
+<input className='my-4 p-2  focus:outline-none focus:border-[#C39317] focus:ring-[#C39317] block w-full rounded-md sm:text-sm focus:ring-1 bg-[#fff]' type="email" placeholder='Email' name='email' required/>
+<textarea className='p-2 focus:outline-none focus:border-[#C39317] focus:ring-[#C39317] block w-full rounded-md sm:text-sm focus:ring-1 bg-[#fff]' name="message" rows="10" placeholder='Message'required></textarea>
 <button className=" text-white border-2 px-4 py-3 my-8 mx-auto flex items-center bg-[#023047] hover:bg-amber-500">
 LET'S COLLABORATE
 </button>
@@ -32,4 +34,4 @@ LET'S COLLABORATE
 )
 }
 
-}
+} 
