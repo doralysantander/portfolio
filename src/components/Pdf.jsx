@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import {Link} from 'react-scroll';
+//import {Link} from 'react-scroll';
+import {Link } from "react-router-dom";
 import HV from '../doc/HV-DORALY-SANTANDER.pdf'
 
  class Pdf extends Component {
@@ -22,9 +23,9 @@ import HV from '../doc/HV-DORALY-SANTANDER.pdf'
               height="100%"
              
           >
-            <Link to={HV} id="enlaceDescargarpdf"
+            <a href={HV} id="enlaceDescargarpdf"
             download="HV-DORALY-SANTANDER.pdf"
-            >Your device cannot display the pdfs click to download</Link>
+            >Your device cannot display the pdfs click to download</a>
               
 
           </object>
