@@ -8,7 +8,7 @@ import Project5 from '../assets/project4.svg';
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full  md:h-full text-gray-300 bg-[#023047] p-4 '>
+    <div name='projects' className='w-full h-full  md:h-full text-gray-300 bg-[#023047] p-4 '>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 text-center p-8'>
           <p className='text-4xl font-bold inline  text-[#c39317] '>
@@ -18,7 +18,7 @@ const Projects = () => {
         </div>
 
         {/* Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4  '>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
 
             {/* Grid Item */}
           <div

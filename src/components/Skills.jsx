@@ -11,7 +11,7 @@ import Mysql from '../assets/mysql.png'
 
 const Skills = () => {
   return (
-    <div name="skills" className="  w-full h-screen bg-[#fff] text-white"> 
+    <div name="skills" className=" w-full h-full bg-[#fff] text-white"> 
         <div className=" max-w-[1000px] mx-auto p-8 flex-col justify-center w-full h-full">
             <div className="text-center  text-[#094B65]">
                 <p className="text-4xl font-bold inline  text-[#094B65] ">Skills</p>{/* border-b-4  border-white*/}
@@ -30,17 +30,17 @@ const Skills = () => {
                 </div>
 
                 <div className=" bg-[#094B65] shadow-lg shadow-[#5ab8c9] hover:scale-110 duration-500 py-4">
-                    <img className="w-20 mx-auto" src={JavaScript} alt="html icon"/>
+                    <img className="w-20 mx-auto  " src={JavaScript} alt="html icon"/>
                     <p className= "my-4">JAVASCRIPT</p>
                 </div>
 
                 <div className=" bg-[#094B65] shadow-lg shadow-[#5ab8c9] hover:scale-110 duration-500 py-4">
-                    <img className="w-20 mx-auto" src={ReactImg} alt="react icon"/>
+                    <img className="w-20 mx-auto  " src={ReactImg} alt="react icon"/>
                     <p className= "my-4">REACT</p>
                 </div>
 
                 <div className=" bg-[#094B65] shadow-md shadow-[#5ab8c9] hover:scale-110 duration-500 py-4">
-                    <img className="w-20 mx-auto" src={GitHub } alt="github icon"/>
+                    <img className="w-20 mx-auto  " src={GitHub } alt="github icon"/>
                     <p className= "my-4">GITHUB</p>
                 </div>
 
@@ -49,13 +49,13 @@ const Skills = () => {
                     <p className= "my-4">TAILWIND</p>
                 </div>
                 <div className=" bg-[#094B65] shadow-md shadow-[#5ab8c9] hover:scale-110 duration-500 py-4">
-                    <img className="w-20 mx-auto" src={Mongo} alt="mongo icon"/>
+                    <img className="w-20 mx-auto " src={Mongo} alt="mongo icon"/>
                     <p className= "my-4">MONGO</p>
                 </div>
                 <div className=" bg-[#094B65] shadow-lg shadow-[#5ab8c9] hover:scale-110 duration-500 py-4">
-                    <img className="w-20 mx-auto" src={Mysql} alt="mysql icon"/>
+                    <img className="w-20 mx-auto " src={Mysql} alt="mysql icon"/>
                     <p className= "my-4">MYSQL</p>
-                </div>
+                 </div>
 
               
 
