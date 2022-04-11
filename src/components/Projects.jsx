@@ -8,13 +8,13 @@ import Project6 from'../assets/img10.svg'
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full h-full  md:h-full text-gray-300 bg-[#023047] p-4 '>
+    <div name='projects' className='w-full h-full  md:h-full text-gray-300 bg-[#023047] p-10 '>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8 text-center p-8'>
+        <div className='pb-12 text-center p-12'>
           <p className='text-4xl font-bold inline  text-[#c39317]'>
           Projects
           </p>
-          <p className="py-">some of my recent works</p>
+          <p className="p-2 text-xl font-bold">some of my recent works</p>
         </div>
 
         {/* Container */}

@@ -48,10 +48,7 @@ const Footer = () => {
                         <FaFacebook size={40}/>
                     </a>
 
-                    <a className=" " 
-                    href="/">
-                        <FaWhatsapp size={40}/>
-                    </a>
+                   
                     <a className=" " 
                     href="https://github.com/doralysantander" target="_blank">
                         <FaGithub size={40}/>
