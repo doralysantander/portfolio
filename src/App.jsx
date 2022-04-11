@@ -6,8 +6,6 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Landing from "./pages/Landing";
-//import Appr from "./components/Appr";
-import Pdf from "./components/Pdf";
 import PageNotFound from "./components/PageNotFound";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
@@ -25,7 +23,7 @@ function App() {
       <Route  exact path="/skills" element={<Skills/>}/>
       <Route  exact path="/projects" element={<Projects/>}/>
       <Route  exact path="/contact" element={<Contact/>}/>
-      {/*<Route  exact path="/" element={<Appr/>}/>
+      {/*
       <Route  exact path="/pdf" element={<Pdf/>}/>*/}
      
        <Route path='*' element={<PageNotFound/>}/>

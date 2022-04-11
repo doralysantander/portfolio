@@ -1,9 +1,9 @@
 import React from 'react';
 import Project1 from '../assets/project1.jpg';
-import Project2 from '../assets/project2.jpg';
 import Project3 from '../assets/project3.svg';
 import Project4 from '../assets/img4.svg';
 import Project5 from '../assets/project4.svg';
+import Project6 from'../assets/img10.svg'
 
 
 const Projects = () => {
@@ -11,7 +11,7 @@ const Projects = () => {
     <div name='projects' className='w-full h-full  md:h-full text-gray-300 bg-[#023047] p-4 '>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 text-center p-8'>
-          <p className='text-4xl font-bold inline  text-[#c39317] '>
+          <p className='text-4xl font-bold inline  text-[#c39317]'>
           Projects
           </p>
           <p className="py-">some of my recent works</p>
@@ -28,16 +28,16 @@ const Projects = () => {
            
             {/**hover */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React js aplication 
+              <span className="text-xl font-bold text-white tracking-wider">
+               Project with html and css
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://replica-web.vercel.app/#pag-inicio" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/doralysantander/Replica-web" target="_blank">
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
                     Code
                   </button>
@@ -80,16 +80,16 @@ const Projects = () => {
            
             {/**hover */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React js aplication 
+            <span className="text-2xl text-center font-bold text-white tracking-wider">
+                crud With Mongo 
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://tododoraly.herokuapp.com/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/doralysantander/CRUD-MONGO" target="_blank">
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
                     Code
                   </button>
@@ -106,15 +106,41 @@ const Projects = () => {
             {/**hover */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React js aplication 
+                Crud with Php
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="http://santanderdoraly.epizy.com/CRUDMVC/index.php" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/doralysantander/CRUDMVC" target="_blank">
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${Project6})` }}
+            className='shadow-lg shadow-[#CCD6F6]  group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+           
+            {/**hover */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Crud with Php
+              </span>
+              <div className="pt-8 text-center">
+                <a href="http://santanderdoraly.epizy.com/CRUDMVC/index.php" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/doralysantander/CRUDMVC" target="_blank">
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
                     Code
                   </button>
@@ -125,6 +151,10 @@ const Projects = () => {
           </div>
 
 
+
+          
+
+          
 
 
 
