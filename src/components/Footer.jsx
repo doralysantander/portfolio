@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from 'react-scroll';
+//import {Link} from 'react-scroll';
+import { Routes, Route, Link } from "react-router-dom";
 import { FaBars, 
     FaTimes,  
     FaGithub,
@@ -37,28 +38,24 @@ const Footer = () => {
                 <div className="flex gap-4 text-[#023047]  hover:ml-[10px] duration-300">
 
                     {/*icons */}
-                    <Link className="" 
-                    to="">
+                    <a className="" 
+                    href="https://www.linkedin.com/in/doraly/" target="_blank">
                         <FaLinkedin size={40}/>
-                    </Link>
+                    </a>
 
-                    <Link className="" 
-                    to="/">
+                    <a className="" 
+                        href="https://www.facebook.com/Doralysantanderchamorro" target="_blank">
                         <FaFacebook size={40}/>
-                    </Link>
+                    </a>
 
-                    <Link className=" " 
-                    to="/">
+                    <a className=" " 
+                    href="/">
                         <FaWhatsapp size={40}/>
-                    </Link>
-                    <Link className=" " 
-                    to="/">
+                    </a>
+                    <a className=" " 
+                    href="https://github.com/doralysantander" target="_blank">
                         <FaGithub size={40}/>
-                    </Link>
-
-
-
-
+                    </a>
 
                 </div>
                 

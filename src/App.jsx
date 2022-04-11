@@ -25,8 +25,8 @@ function App() {
       <Route  exact path="/skills" element={<Skills/>}/>
       <Route  exact path="/projects" element={<Projects/>}/>
       <Route  exact path="/contact" element={<Contact/>}/>
-      {/*<Route  exact path="/" element={<Appr/>}/>*/}
-      <Route  exact path="/pdf" element={<Pdf/>}/>
+      {/*<Route  exact path="/" element={<Appr/>}/>
+      <Route  exact path="/pdf" element={<Pdf/>}/>*/}
      
        <Route path='*' element={<PageNotFound/>}/>
 
