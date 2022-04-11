@@ -8,7 +8,7 @@
 - 🌐 &nbsp; React 
 - 🖥 &nbsp; Deploying | => <a https://portfolio-git-main-doralysantander.vercel.app/> Portfolio with React</a>
 
-![img1](https://user-images.githubusercontent.com/86391179/162660752-f933aa16-8d64-47fe-a931-52ce3f0508e9.png)
+![img1](https://user-images.githubusercontent.com/86391179/162661510-f45e4261-a493-4bf1-8176-e9b321143e69.png)
 
 
 
