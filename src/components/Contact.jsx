@@ -1,6 +1,9 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
+import { useAlert } from 'react-alert'
+
 export default class Contact extends React.Component {
+  
 render() {
 function enviarEmail(e){
 e.preventDefault();

@@ -14,7 +14,7 @@ const Projects = () => {
           <p className='text-4xl font-bold inline  text-[#c39317]'>
           Projects
           </p>
-          <p className="p-2 text-xl font-bold">some of my recent works</p>
+          <p className="p-2 text-2xl font-bold">some of my recent works</p>
         </div>
 
         {/* Container */}
