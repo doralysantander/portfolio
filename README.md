@@ -7,6 +7,7 @@
 - 🌐 &nbsp; HTML5 | CSS3 | Tailwindcss |
 - 🌐 &nbsp; React 
 - 🖥 &nbsp; Deploying | => <a https://portfolio-git-main-doralysantander.vercel.app/> Portfolio with React</a>
+<h2> These are the sections that my portfolio contains </h2>
 
 ![img1](https://user-images.githubusercontent.com/86391179/162661510-f45e4261-a493-4bf1-8176-e9b321143e69.png)
 ![img2](https://user-images.githubusercontent.com/86391179/162661751-00d11e69-9f67-48f2-8a1e-042040ddc5d7.png)
