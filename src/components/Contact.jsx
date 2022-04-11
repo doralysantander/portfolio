@@ -14,6 +14,7 @@ export default class Contact extends React.Component {
           }, function(error) {
              console.log('FAILED...', error);
           });
+          e.target.reset();
       }
 
 
