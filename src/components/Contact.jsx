@@ -8,7 +8,7 @@ export default class Contact extends React.Component {
 
           emailjs.sendForm('service_sgoyhbs', 'template_hxe2mkl', e.target, 'KI-dunL_Ng_VxiRSm')
           .then(function(response) {
-             
+             alert("mensaje enviado")
              console.log('SUCCESS!', response.status, response.text);
          
           }, function(error) {
