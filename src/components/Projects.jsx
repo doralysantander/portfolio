@@ -18,7 +18,7 @@ const Projects = () => {
         </div>
 
         {/* Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4  overflow-y-scroll max-h-52 '>
 
             {/* Grid Item */}
           <div
@@ -123,13 +123,13 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
+      {/*
           <div
             style={{ backgroundImage: `url(${Project6})` }}
             className='shadow-lg shadow-[#CCD6F6]  group container rounded-md flex justify-center items-center mx-auto content-div'
           >
            
-            {/**hover */}
+            
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Crud with Php
@@ -148,11 +148,11 @@ const Projects = () => {
 
               </div>
             </div>
-          </div>
+          </div> */}
+  {/*prueba */}
 
 
-
-          
+   
 
           
 
