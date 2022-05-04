@@ -4,6 +4,7 @@ import Project3 from '../assets/project3.svg';
 import Project4 from '../assets/img4.svg';
 import Project5 from '../assets/project4.svg';
 import Project6 from'../assets/img10.svg'
+import { motion } from "framer-motion"
 
 
 const Projects = () => {
@@ -25,7 +26,7 @@ const Projects = () => {
             style={{ backgroundImage: `url(${Project1})` }}
             className='shadow-lg shadow-[#CCD6F6]  group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-           
+
             {/**hover */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-xl font-bold text-white tracking-wider">
@@ -77,7 +78,7 @@ const Projects = () => {
             style={{ backgroundImage: `url(${Project4})` }}
             className='shadow-lg shadow-[#CCD6F6]  group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-           
+
             {/**hover */}
             <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl text-center font-bold text-white tracking-wider">
@@ -104,11 +105,17 @@ const Projects = () => {
           >
            
             {/**hover */}
-            <div className="opacity-0 group-hover:opacity-100">
+            
+             
+            <div 
+           
+             className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Crud with Php
               </span>
-              <div className="pt-8 text-center">
+              <motion.div  initial = {{scale: 1}}
+              transition = {{ duration: 3 }}
+              animate = {{scale: 1, rotate: 360}} className="pt-8 text-center">
                 <a href="http://santanderdoraly.epizy.com/CRUDMVC/index.php" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
                     Demo
@@ -120,8 +127,9 @@ const Projects = () => {
                   </button>
                 </a>
 
-              </div>
+              </motion.div>
             </div>
+          
           </div>
       {/*
           <div

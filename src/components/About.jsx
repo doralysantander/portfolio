@@ -17,7 +17,7 @@ const About = () => {
               <p>Hi. I'm Doraly, nice too meet you. Let's talk about me.</p>
             </div>
             <div>
-              <p>I am highly motivated to continue perfecting my skills and growing professionally, my ambition to learn is huge. I am very dedicated responsible, self-taught, disciplined, I am always looking for new challenges and never stop learning</p>  
+              <p>I am highly motivated to continue perfecting my skills and  continue to grow professionally, my ambition to learn is huge. I am very dedicated responsible, self-taught, disciplined, I am always looking for new challenges and never stop learning</p>  
             </div>
           </div>
       </div>
