@@ -9,6 +9,9 @@
 
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
       @apply font-[Poppins];
   }
@@ -17,7 +20,9 @@
       @apply cursor-pointer
  
   }
+  
 }
+
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
