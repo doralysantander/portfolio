@@ -11,15 +11,19 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+   
   }
   body {
       @apply font-[Poppins];
   }
+
   li {
       @apply px-4;
       @apply cursor-pointer
- 
+
   }
+
+  
   
 }
 

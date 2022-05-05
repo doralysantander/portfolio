@@ -23,7 +23,7 @@ const Navbar = () => {
     
   return (
     //<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#023047] text-slate-100">
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-white text-[#023047]  shadow-lg shadow-[#5ab8c9]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-8 bg-white text-[#023047]  shadow-lg shadow-[#5ab8c9]'>
      
         <div>
             <img src={Logo} alt="Logo image" style ={{ width: '70px' }} />
@@ -31,30 +31,30 @@ const Navbar = () => {
         </div>
         {/*Menu */}
        
-            <ul  className="hidden md:flex">
-                <li>
+            <ul  className=" hidden md:flex">
+                <li  className="group block max-w-xs mx-auto rounded-lg p-2  ring-slate-900/5  hover:bg-[#C39317] ">
                     <Link to="home"   >
                             Home
                     </Link>
                 </li>
-                <li>
+                <li  className="group block max-w-xs mx-auto rounded-lg p-2  ring-slate-900/5  hover:bg-[#C39317]">
                     <Link to="about"    >
                          About
                     </Link>  
                 </li>
-                <li>
+                <li  className="group block max-w-xs mx-auto rounded-lg p-2  ring-slate-900/5  hover:bg-[#C39317] ">
                     <Link to="skills"   >
                          Skills
                     </Link>  
                     
                 </li>
-                <li>
+                <li  className="group block max-w-xs mx-auto rounded-lg p-2  ring-slate-900/5  hover:bg-[#C39317] ">
                 <Link to="projects"   >
                         Projects
                     </Link> 
                     
                 </li>
-                <li>
+                <li  className="group block max-w-xs mx-auto rounded-lg p-2  ring-slate-900/5  hover:bg-[#C39317] ">
                 <Link to="contact"  duration={500} >
                        Contacts
                 </Link> 

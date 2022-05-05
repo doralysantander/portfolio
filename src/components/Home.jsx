@@ -3,7 +3,6 @@ import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { motion } from "framer-motion"
 //import {Link } from "react-router-dom";
-//import HV from '../doc/HV-DORALY-SANTANDER.pdf'
 import HV from '../doc/HV-DORALY-SANTANDER-CHAMORRO.pdf'
 
 const Home = () => {
@@ -17,14 +16,15 @@ const Home = () => {
              
               y: 0,
               
-            
+    
 
 
-              }} className=" lg:text-5xl sm:text-4xl font-bold ">DORALY SANTANDER CHAMORRO</motion.h1>
+              }} className=" lg:text-5xl sm:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-yellow-700 ">DORALY SANTANDER CHAMORRO</motion.h1>
             <h2 className="text-4xl sm:text-3xl font-bold text-l">I'M A DEVELOPER</h2>
             <div className="" >
             <a href= {HV} download={'HV-DORALY-SANTANDER-CHAMORRO'}>
               <button  className=" bg-[#C39317] hover:bg-amber-500 text-white group font-bold py-2 px-6 border-2  flex items-center border-blue-800 rounded " >
+ 
                 My resumé
                 <span className=" group-hover:rotate-90 duration-400">
                   <HiArrowNarrowRight className="ml-3" />
