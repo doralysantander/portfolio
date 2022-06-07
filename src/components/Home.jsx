@@ -2,7 +2,6 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { motion } from "framer-motion"
-//import {Link } from "react-router-dom";
 import HV from '../doc/HV-DORALY-SANTANDER-CHAMORRO.pdf'
 
 const Home = () => {

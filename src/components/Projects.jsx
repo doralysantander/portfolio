@@ -21,6 +21,32 @@ const Projects = () => {
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4  overflow-y-scroll max-h-52 '>
 
+        <div
+            style={{ backgroundImage: `url(${Project3})` }}
+            className='shadow-lg shadow-[#CCD6F6]  group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+           
+            {/**hover */}
+            <div className="opacity-0 group-hover:opacity-100 ml-6">
+              <span className="text-2xl font-bold text-white tracking-wider ">
+               Legacy Proyecto de Selección
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://legacy-proceso-seleccion.netlify.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/ProgramateAcademyE/Legacy-Proceso-de-Seleccion-front/tree/main" target="_blank">
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
             {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Project1})` }}
@@ -48,31 +74,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div
-            style={{ backgroundImage: `url(${Project3})` }}
-            className='shadow-lg shadow-[#CCD6F6]  group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-           
-            {/**hover */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React js aplication 
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#C39317] text-[#023047] font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-
-              </div>
-            </div>
-          </div>
+         
 
           <div
             style={{ backgroundImage: `url(${Project4})` }}
