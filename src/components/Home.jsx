@@ -2,7 +2,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { motion } from "framer-motion"
-import HV from '../doc/HV-DORALY-SANTANDER-CHAMORRO.pdf'
+import HV from '../doc/HV-DORALY-SANTANDER-CHAMORRO1.pdf'
 
 const Home = () => {
   return (
